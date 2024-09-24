@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    max-width: 2000px !important;
+}
+
+header{
+    background-image: linear-gradient(to right, #e32890, #b12189, #7f1c7c, #4f1769, #201051);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 6em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo{
+    display: flex;
+    gap: 2em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Entrada{
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.contenedor-texto{
+    text-align: center;
+    padding: 0.5em 5em;
+}
+
+.contenedor-texto a{
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    background-color: #300c6f;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.enlace{
+    margin: 2.5em;
+}
+
+.contenedor-titulo{
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.relleno{
+    width: 50%;
+}
+
+.SobreMi{
+    display: flex;
+    height: 30em;
+    margin-top: 4em;
+}
+
+.SobreMi img{
+    width: 400px;
+    height: auto;
+}
+
+.imagen{
+    background-image: linear-gradient(to left bottom, #e32890, #b12189, #7f1c7c, #4f1769, #201051);
+    width: 40%;
+    height: auto;
+    border-radius: 0 40px 40px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.descripcion{
+    width: 60%;
+}
+
+.descripcion h2{
+    color: #9C27B0;
+    font-size: 3em;
+    padding: 1em 0.8em
+}
+
+.descripcion p{
+    font-size: 1.6em;
+    padding: 0.5em 1.5em;
+    color: #201051;
+}
+
+.QueEncontrar{
+    width: 100%;
+    height: 40em;
+    background-image: linear-gradient(to left bottom, #e32890, #b12189, #7f1c7c, #4f1769, #201051);
+    margin-top: 5em;
+}
+
+.QueEncontrar h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 2em;
+    color: #fff;
+}
+
+.ElementosImagenes{
+    display: flex;
+}
+
+.ElementosImagenes div p{
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 2em 0 2em 0;
+}
+
+.ElementosImagenes img{
+    width: 250px;
+    height: 250px;
+    background-color: #201051;
+    border-radius: 50%;
+}
+
+#poo{
+    background-color: #1B208B;
+}
+
+#jakarta{
+    background-color: #fff;
+}
+
+#spring{
+    background-color: #fff;
+}
+
+.ElementosImagenes div{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#programacion{
+    font-size: 11em;
+    padding: 0.2em 0.4em 0.2em 0.4em;
+    border-radius: 4em;
+    background: #F1CB04;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Encuentranos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Encuentranos h1{
+    font-size: 3em;
+    padding: 1.5em 1.5em 0.5em;
+    text-align: center;
+    color: #b12189;
+}
+
+.Encuentranos p{
+    padding: 0 1.5em 3.5em 1.5em; 
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.RedesSociales div{
+    width: 30%;
+    font-size: 1.3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.RedesSociales div a{
+    color: #300c6f;
+    font-size: 6em;
+
+}
+
+.RedesSociales div div{
+    width: 100%;
+    padding: 0.5em 0 2em 0;
+}
+
+.usuario p{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 4em;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left bottom, #e32890, #b12189, #7f1c7c, #4f1769, #201051);
+    color: #fff;
+    margin-top: 4em;
+}
